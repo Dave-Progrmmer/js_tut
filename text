@@ -1,0 +1,120 @@
+// let username;
+// // document.getElementById("mySubmit").onclick = function() {
+// //     username = document.getElementById("myText").value;
+// //     console.log(username);
+// //     alert("Hello " + username);
+// //     document.getElementById("myH1").textContent = `Welcome ${username}`;
+// // }
+// // let age = window.prompt("Enter your age");
+// // age = Number(age);
+// // age+=1;
+// // console.log(age);
+
+// // let pi = 3.142;
+// // let radius;
+// // let circumference;
+// // radius = window.prompt("Enter the radius of the circle");
+// // radius = Number(radius);
+// // circumference = 2 * pi * radius;
+// // console.log(`The circumference of the circle is ${circumference}`);
+// // alert(`The circumference of the circle is ${circumference}`);
+
+// // let value1 = window.prompt("Enter first value");
+// // let value2 = window.prompt("Enter second value");
+// // value1 = Number(value1);
+// // value2 = Number(value2);
+// // let sum = value1 + value2;
+// // console.log(`The sum of ${value1} and ${value2} is ${sum}`);
+
+// const PI = 3.142;
+// let radius;
+// let circumference;
+// document.getElementById("mySubmit").onclick = function() {
+//     radius = document.getElementById("myText").value
+//     radius = Number(radius);
+//     circumference = 2 * PI * radius;
+//     document.getElementById("myH3").textContent = `The circumference of the circle is ${circumference} cm`;
+// }
+                // Counter Program
+// const decreaseBtn = document.getElementById("decreaseBtn");
+// const resetBtn = document.getElementById("resetBtn");
+// const increaseBtn = document.getElementById("increaseBtn");
+// const countLabel = document.getElementById("countLabel");
+// let count = 0;
+
+// increaseBtn.onclick = function() {
+//     count++;
+//     countLabel.textContent = count;
+// }
+// decreaseBtn.onclick = function() {
+//     count--;
+//     countLabel.textContent = count;
+// }
+// resetBtn.onclick = function(){
+//     count = 0;
+//     countLabel.textContent = count;
+// }
+            // RANDOM NUMBER GENERATOR
+// const myButton = document.getElementById("myButton");
+// const myLabel = document.getElementById("myLabel");
+// const min = 1;
+// const max = 6;
+// let randomNumber;
+// myButton.onclick = function() {
+//     randomNumber = Math.floor(Math.random() * max) + min;
+//     myLabel.textContent = `You rolled a ${randomNumber}`;
+// }
+                // IF STATEMENTS - if a conditqion is true, then do something
+//                                  if a condition is false, then do something else
+// let age = 20;
+// // let hasLicense = true;
+// // if(age>=18){
+// //     console.log("You are old enough to drive");
+
+// //     if(hasLicense){
+// //         console
+// //     }
+// //     else{
+// //         console.log("You need a license to drive");
+// //     }
+// // }else{
+// //     console.log("you need to be 16+");
+// // }
+
+// if(age>=18){
+//     console.log(`you are old enough to entet this site`);
+// }else if
+// else{
+//     console.log(`you are not old enough to enter this site`);
+// }
+            //Checkbox and Radio Button Example
+
+// const myCheckbox = document.getElementById('myCheckbox');
+// const visaBtn = document.getElementById('visaBtn');
+// const masterCardBtn = document.getElementById('masterCardBtn');
+// const payPalBtn = document.getElementById('payPalBtn');
+// const mySubmit = document.getElementById('mySubmit');
+// const subResult = document.getElementById('subResult');
+// const paymentResult = document.getElementById('paymentResult');
+
+// mySubmit.onclick = function() {
+//     if (myCheckbox.checked) {
+//         subResult.textContent = "You have subscribed to our newsletter!";
+//     } else {
+//         subResult.textContent = "You have not subscribed to our newsletter.";
+//     }
+//     if (visaBtn.checked) {
+//         paymentResult.textContent = "You have selected Visa as your payment method.";
+//     } else if (masterCardBtn.checked) {
+//         paymentResult.textContent = "You have selected MasterCard as your payment method.";
+//     } else if (payPalBtn.checked) {
+//         paymentResult.textContent = "You have selected PayPal as your payment method.";
+//     } else {
+//         paymentResult.textContent = "No payment method selected.";
+//     }
+// };
+                // tenary operator = a shortcut to if {} and else{} statements 
+//                     helps to assign a value to a variable based on a condition
+
+// let purchaseAmount = 1000;
+// let discount = purchaseAmount > 500 ? 0.1 : 0.05; // if purchaseAmount is greater than 500, discount is 10%, else it's 5%
