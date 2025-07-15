@@ -97,3 +97,38 @@ body {
 .btn.random:hover {
     background: #d4ac0d;
 }
+
+/* Responsive styles for phone users */
+@media (max-width: 600px) {
+  .container {
+    flex-direction: column;
+    width: 100vw;
+    height: auto;
+    min-height: 100vh;
+    padding: 1rem 0;
+  }
+  .card {
+    min-width: unset;
+    width: 95vw;
+    padding: 1.2rem 0.5rem 1.5rem 0.5rem;
+    border-radius: 12px;
+  }
+  .title {
+    font-size: 1.3rem;
+    margin-bottom: 1rem;
+  }
+  .color-display {
+    font-size: 1rem;
+    padding: 0.4rem 0.7rem;
+  }
+  .button-group {
+    flex-direction: column;
+    gap: 0.7rem;
+  }
+  .btn {
+    font-size: 0.98rem;
+    padding: 0.7rem 1rem;
+    width: 100%;
+    min-width: 0;
+  }
+}
